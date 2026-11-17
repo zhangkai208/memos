@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/memos.api.v1.:path*",
+      "destination": "https://memos-whoe.onrender.com/memos.api.v1.:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://memos-whoe.onrender.com/api/:path*"
+    },
+    {
+      "source": "/file/:path*",
+      "destination": "https://memos-whoe.onrender.com/file/:path*"
+    },
+    {
+      "source": "/o/:path*",
+      "destination": "https://memos-whoe.onrender.com/o/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
