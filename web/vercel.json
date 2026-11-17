@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/memos.api.v1.:path*",
-      "destination": "https://memos-whoe.onrender.com/memos.api.v1.:path*"
+      "source": "/memos.api.:path*",
+      "destination": "https://memos-whoe.onrender.com/memos.api.:path*"
     },
     {
       "source": "/api/:path*",
